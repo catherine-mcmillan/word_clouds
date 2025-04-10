@@ -6,11 +6,11 @@ pip install -r requirements.txt
 
 For making an n-gram
  
-input_file = 'kat.csv' #file with your data
-output_file = 'testingvariables.csv' #file where your ngrams will be written 
+input_file = '.csv' #file with your data
+output_file = '.csv' #file where your ngrams will be written 
 text_column = 'text' #case sensitive name of column to read and make ngrams out of
 no_grams = 200 #number of ngrams to generate
-custom_stopwords = ['example_stopword1', 'example_stopword2'] #custom stopwords list
+custom_stopwords = ['example_stopword1', 'example_stopword2'] #custom stopwords list; powerful for removing overly common words like brand/product names
 
 input_file = 'testingvariables.csv' #input file csv
 frequency = 'Bigram_Frequency' #column name with frequency
