@@ -1,0 +1,22 @@
+Make a new folder in your home/user directory
+VSCode --> View --> Command Palette --> Python: Create Environment --> Virtual venv --> Select python version (most recent)
+VSCode Terminal --> New Terminal 
+
+pip install -r requirements.txt
+
+For making an n-gram
+ 
+input_file = 'kat.csv' #file with your data
+output_file = 'testingvariables.csv' #file where your ngrams will be written 
+text_column = 'text' #case sensitive name of column to read and make ngrams out of
+no_grams = 200 #number of ngrams to generate
+custom_stopwords = ['example_stopword1', 'example_stopword2'] #custom stopwords list
+
+input_file = 'testingvariables.csv' #input file csv
+frequency = 'Bigram_Frequency' #column name with frequency
+grams = 'Bigram' #column name with text
+word_color = "rgb(21, 42, 122)" #word color rbg
+bg = 'white' #background color; "white", "black", "red", "green", "blue", "cyan", "yellow", and "magenta" are standard
+cloud_width = 1920 #width
+cloud_height = 1080 # height
+cloud_font = '/Library/Fonts/Arial.ttf' #different on windows, but the path to the font
